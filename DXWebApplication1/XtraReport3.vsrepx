@@ -12,7 +12,7 @@
   <Bands>
     <Item1 Ref="9" ControlType="TopMarginBand" Name="TopMargin">
       <Controls>
-        <Item1 Ref="10" ControlType="XRLabel" Name="label7" Multiline="true" Text="Relatório Blank" TextAlignment="MiddleCenter" SizeF="650,23" LocationFloat="0,76.99999" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+        <Item1 Ref="10" ControlType="XRLabel" Name="label7" Multiline="true" Text="Blank Report" TextAlignment="MiddleCenter" SizeF="650,23" LocationFloat="0,76.99999" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="11" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
       </Controls>
@@ -20,31 +20,31 @@
     <Item2 Ref="12" ControlType="BottomMarginBand" Name="BottomMargin" />
     <Item3 Ref="13" ControlType="DetailBand" Name="Detail">
       <Controls>
-        <Item1 Ref="14" ControlType="XRLabel" Name="label6" Multiline="true" Text="label6" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0,23.0000057" Padding="2,2,0,0,96" Borders="All">
+        <Item1 Ref="14" ControlType="XRLabel" Name="label6" Multiline="true" Text="label6" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0,23.0000057" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="15" EventName="BeforePrint" PropertyName="Text" Expression="?ID" />
           </ExpressionBindings>
           <StylePriority Ref="16" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="17" ControlType="XRLabel" Name="label5" Multiline="true" Text="label5" TextAlignment="MiddleLeft" SizeF="400,23.0000019" LocationFloat="100,23.0000057" Padding="2,2,0,0,96" Borders="All">
+        <Item2 Ref="17" ControlType="XRLabel" Name="label5" Multiline="true" Text="label5" TextAlignment="MiddleLeft" SizeF="400,23.0000019" LocationFloat="100,23.0000057" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="?NOME" />
           </ExpressionBindings>
           <StylePriority Ref="19" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="20" ControlType="XRLabel" Name="label4" TextFormatString="{0:d}" Multiline="true" Text="label4" TextAlignment="MiddleLeft" SizeF="150,23.0000019" LocationFloat="500,23.0000057" Padding="2,2,0,0,96" Borders="All">
+        <Item3 Ref="20" ControlType="XRLabel" Name="label4" TextFormatString="{0:d}" Multiline="true" Text="label4" TextAlignment="MiddleLeft" SizeF="150,23.0000019" LocationFloat="500,23.0000057" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="21" EventName="BeforePrint" PropertyName="Text" Expression="?DATA" />
           </ExpressionBindings>
           <StylePriority Ref="22" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="23" ControlType="XRLabel" Name="label3" Multiline="true" Text="DATA" TextAlignment="MiddleLeft" SizeF="150,23" LocationFloat="500,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+        <Item4 Ref="23" ControlType="XRLabel" Name="label3" Multiline="true" Text="DATA" TextAlignment="MiddleLeft" SizeF="150,23" LocationFloat="500,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="24" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
-        <Item5 Ref="25" ControlType="XRLabel" Name="label2" Multiline="true" Text="NOME" TextAlignment="MiddleLeft" SizeF="400,23" LocationFloat="100,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+        <Item5 Ref="25" ControlType="XRLabel" Name="label2" Multiline="true" Text="NOME" TextAlignment="MiddleLeft" SizeF="400,23" LocationFloat="100,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="26" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="27" ControlType="XRLabel" Name="label1" Multiline="true" Text="ID" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+        <Item6 Ref="27" ControlType="XRLabel" Name="label1" Multiline="true" Text="ID" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="28" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item6>
       </Controls>

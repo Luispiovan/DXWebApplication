@@ -13,7 +13,7 @@
     </Item2>
     <Item3 Ref="7" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="35.027668">
       <Controls>
-        <Item1 Ref="8" ControlType="XRLabel" Name="label1" Text="Dados do CT-e" TextAlignment="MiddleCenter" SizeF="739.000061,24.194334" LocationFloat="0,0.8333333" StyleName="Title" Font="Arial Black, 13.8pt, style=Bold, charSet=0" ForeColor="Chocolate">
+        <Item1 Ref="8" ControlType="XRLabel" Name="label1" Multiline="true" Text="&#xD;&#xA;JSON File Database" TextAlignment="MiddleCenter" SizeF="739.000061,24.194334" LocationFloat="0,0.8333333" StyleName="Title" Font="Arial Black, 13.8pt, style=Bold, charSet=0" ForeColor="Chocolate">
           <StylePriority Ref="9" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
         </Item1>
       </Controls>
