@@ -27,16 +27,16 @@
         <Item5 Ref="15" FieldName="chaveAcesso" />
       </GroupFields>
       <Controls>
-        <Item1 Ref="16" ControlType="XRLabel" Name="label71" Multiline="true" Text="Data Recebimento AN" TextAlignment="MiddleLeft" SizeF="173.262115,22.16681" LocationFloat="476.737885,761.2502" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item1 Ref="16" ControlType="XRLabel" Name="label71" Multiline="true" Text="Data Recebimento AN" TextAlignment="MiddleLeft" SizeF="173.262115,22.16681" LocationFloat="565.737732,761.25" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="17" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="18" ControlType="XRLabel" Name="label70" Multiline="true" Text="Data/Hora" TextAlignment="MiddleLeft" SizeF="121.062836,22.166687" LocationFloat="355.675049,761.2502" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item2 Ref="18" ControlType="XRLabel" Name="label70" Multiline="true" Text="Data/Hora" TextAlignment="MiddleLeft" SizeF="121.062836,22.166687" LocationFloat="444.6749,761.2501" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="19" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="20" ControlType="XRLabel" Name="label69" Multiline="true" Text="Protocolo" TextAlignment="MiddleLeft" SizeF="144.847824,22.166626" LocationFloat="210.827225,761.2502" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item3 Ref="20" ControlType="XRLabel" Name="label69" Multiline="true" Text="Protocolo" TextAlignment="MiddleLeft" SizeF="197.347824,22.166626" LocationFloat="247.327072,761.2502" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="21" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="22" ControlType="XRLabel" Name="label64" Multiline="true" Text="Evento" TextAlignment="MiddleLeft" SizeF="209.160553,22.166687" LocationFloat="1.66666663,761.2502" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item4 Ref="22" ControlType="XRLabel" Name="label64" Multiline="true" Text="Evento" TextAlignment="MiddleLeft" SizeF="245.6604,22.166687" LocationFloat="1.66666663,761.2502" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="23" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
         <Item5 Ref="24" ControlType="XRLabel" Name="label65" Multiline="true" Text="SITUAÇÃO ATUAL: AUTORIZADO" TextAlignment="MiddleLeft" SizeF="737.3334,22.166687" LocationFloat="1.66666663,738.2503" Font="Arial Black, 10.2pt, style=Bold, charSet=0" ForeColor="Chocolate" Padding="2,2,0,0,100" BorderDashStyle="Solid">
@@ -60,13 +60,13 @@
           </ExpressionBindings>
           <StylePriority Ref="34" UseBorders="false" />
         </Item8>
-        <Item9 Ref="35" ControlType="XRLabel" Name="label56" Multiline="true" Text="label56" SizeF="149.9939,23" LocationFloat="0,583.805542" Padding="2,2,0,0,100" Borders="All">
+        <Item9 Ref="35" ControlType="XRLabel" Name="label56" Multiline="true" Text="label56" SizeF="107.4939,23" LocationFloat="0,583.805542" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[cfop]" />
           </ExpressionBindings>
           <StylePriority Ref="37" UseBorders="false" />
         </Item9>
-        <Item10 Ref="38" ControlType="XRLabel" Name="label55" Multiline="true" Text="label55" SizeF="365.443542,23" LocationFloat="150.827225,583.805542" Padding="2,2,0,0,100" Borders="All">
+        <Item10 Ref="38" ControlType="XRLabel" Name="label55" Multiline="true" Text="label55" SizeF="408.776855,23" LocationFloat="107.4939,583.805542" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="39" EventName="BeforePrint" PropertyName="Text" Expression="[naturezaOperacao]" />
           </ExpressionBindings>
@@ -84,13 +84,13 @@
           </ExpressionBindings>
           <StylePriority Ref="46" UseBorders="false" />
         </Item12>
-        <Item13 Ref="47" ControlType="XRLabel" Name="label51" Multiline="true" Text="label51" SizeF="296.347656,23" LocationFloat="150.827225,538.6389" Padding="2,2,0,0,100" Borders="All">
+        <Item13 Ref="47" ControlType="XRLabel" Name="label51" Multiline="true" Text="label51" SizeF="339.681,23" LocationFloat="107.4939,538.6389" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="48" EventName="BeforePrint" PropertyName="Text" Expression="[tipoServico]" />
           </ExpressionBindings>
           <StylePriority Ref="49" UseBorders="false" />
         </Item13>
-        <Item14 Ref="50" ControlType="XRLabel" Name="label50" Multiline="true" Text="label50" SizeF="149.9939,23" LocationFloat="0,538.6389" Padding="2,2,0,0,100" Borders="All">
+        <Item14 Ref="50" ControlType="XRLabel" Name="label50" Multiline="true" Text="label50" SizeF="107.4939,23" LocationFloat="0,538.6389" Padding="2,2,0,0,100" Borders="All">
           <ExpressionBindings>
             <Item1 Ref="51" EventName="BeforePrint" PropertyName="Text" Expression="[modal]" />
           </ExpressionBindings>
@@ -105,10 +105,10 @@
         <Item17 Ref="57" ControlType="XRLabel" Name="label63" Multiline="true" Text="Fim da Prestação" TextAlignment="MiddleLeft" SizeF="290.157867,22.166626" LocationFloat="448.841949,606.805664" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="58" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item17>
-        <Item18 Ref="59" ControlType="XRLabel" Name="label54" Multiline="true" Text="CFOP" TextAlignment="MiddleLeft" SizeF="150.827225,22.1666565" LocationFloat="0,561.6389" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item18 Ref="59" ControlType="XRLabel" Name="label54" Multiline="true" Text="CFOP" TextAlignment="MiddleLeft" SizeF="107.4939,22.166626" LocationFloat="0,561.6389" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="60" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item18>
-        <Item19 Ref="61" ControlType="XRLabel" Name="label57" Multiline="true" Text="Natureza da Operação" TextAlignment="MiddleLeft" SizeF="365.443542,22.166626" LocationFloat="150.827225,561.6389" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item19 Ref="61" ControlType="XRLabel" Name="label57" Multiline="true" Text="Natureza da Operação" TextAlignment="MiddleLeft" SizeF="408.776855,22.166626" LocationFloat="107.4939,561.6389" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="62" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item19>
         <Item20 Ref="63" ControlType="XRLabel" Name="label58" Multiline="true" Text="Digest Value do CT-e" TextAlignment="MiddleLeft" SizeF="222.729462,22.166626" LocationFloat="516.270752,561.6389" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
@@ -117,10 +117,10 @@
         <Item21 Ref="65" ControlType="XRLabel" Name="label45" Multiline="true" Text="Características:" TextAlignment="MiddleLeft" SizeF="739.000061,22.166687" LocationFloat="0,493.472351" Font="Arial Black, 10.2pt, style=Bold, charSet=0" ForeColor="Chocolate" Padding="2,2,0,0,100" BorderDashStyle="Solid">
           <StylePriority Ref="66" UseFont="false" UseForeColor="false" UseBorderDashStyle="false" UseTextAlignment="false" />
         </Item21>
-        <Item22 Ref="67" ControlType="XRLabel" Name="label46" Multiline="true" Text="Modal" TextAlignment="MiddleLeft" SizeF="150.827225,22.1666565" LocationFloat="0,516.4723" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item22 Ref="67" ControlType="XRLabel" Name="label46" Multiline="true" Text="Modal" TextAlignment="MiddleLeft" SizeF="107.4939,22.166626" LocationFloat="0,516.4723" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="68" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item22>
-        <Item23 Ref="69" ControlType="XRLabel" Name="label47" Multiline="true" Text="Tipo Serviço" TextAlignment="MiddleLeft" SizeF="296.347656,22.166626" LocationFloat="150.827225,516.4723" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
+        <Item23 Ref="69" ControlType="XRLabel" Name="label47" Multiline="true" Text="Tipo Serviço" TextAlignment="MiddleLeft" SizeF="339.681,22.166626" LocationFloat="107.4939,516.4723" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">
           <StylePriority Ref="70" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item23>
         <Item24 Ref="71" ControlType="XRLabel" Name="label48" Multiline="true" Text="Finalidade" TextAlignment="MiddleLeft" SizeF="146.896149,21.333374" LocationFloat="447.1749,516.4723" Font="Arial, 10.2pt, style=Bold, charSet=0" ForeColor="Gray" BackColor="SandyBrown" Padding="2,2,0,0,100" Borders="All">

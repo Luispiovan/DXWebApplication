@@ -12,7 +12,7 @@ namespace DXWebApplication1 {
     
     public partial class XtraReport2 : DevExpress.XtraReports.UI.XtraReport {
         private void InitializeComponent() {
-            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "DXWebApplication1.XtraReport2.vsrepx");
+            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "DXWebApplication.XtraReport2.vsrepx");
 
             // Controls
             this.TopMargin = reportInitializer.GetControl<DevExpress.XtraReports.UI.TopMarginBand>("TopMargin");
