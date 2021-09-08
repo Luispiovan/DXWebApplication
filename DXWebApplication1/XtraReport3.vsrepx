@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.1.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.1, Version=21.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport3" PageWidth="850" PageHeight="1100" Version="21.1" Font="Arial, 9.75pt">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".vsrepx" />
+  </Extensions>
+  <Parameters>
+    <Item1 Ref="3" Description="ID" ValueInfo="0" Name="ID" Type="#Ref-2" />
+    <Item2 Ref="5" Description="NOME" Name="NOME" />
+    <Item3 Ref="7" Description="DATA" ValueInfo="2021-09-08" Name="DATA" Type="#Ref-6" />
+    <Item4 Ref="8" Description="Title" Name="Title" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="9" ControlType="TopMarginBand" Name="TopMargin">
+      <Controls>
+        <Item1 Ref="10" ControlType="XRLabel" Name="label7" Multiline="true" Text="Relatório Blank" TextAlignment="MiddleCenter" SizeF="650,23" LocationFloat="0,76.99999" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+          <StylePriority Ref="11" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="12" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="13" ControlType="DetailBand" Name="Detail">
+      <Controls>
+        <Item1 Ref="14" ControlType="XRLabel" Name="label6" Multiline="true" Text="label6" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0,23.0000057" Padding="2,2,0,0,96" Borders="All">
+          <ExpressionBindings>
+            <Item1 Ref="15" EventName="BeforePrint" PropertyName="Text" Expression="?ID" />
+          </ExpressionBindings>
+          <StylePriority Ref="16" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="17" ControlType="XRLabel" Name="label5" Multiline="true" Text="label5" TextAlignment="MiddleLeft" SizeF="400,23.0000019" LocationFloat="100,23.0000057" Padding="2,2,0,0,96" Borders="All">
+          <ExpressionBindings>
+            <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="?NOME" />
+          </ExpressionBindings>
+          <StylePriority Ref="19" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="20" ControlType="XRLabel" Name="label4" TextFormatString="{0:d}" Multiline="true" Text="label4" TextAlignment="MiddleLeft" SizeF="150,23.0000019" LocationFloat="500,23.0000057" Padding="2,2,0,0,96" Borders="All">
+          <ExpressionBindings>
+            <Item1 Ref="21" EventName="BeforePrint" PropertyName="Text" Expression="?DATA" />
+          </ExpressionBindings>
+          <StylePriority Ref="22" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="23" ControlType="XRLabel" Name="label3" Multiline="true" Text="DATA" TextAlignment="MiddleLeft" SizeF="150,23" LocationFloat="500,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+          <StylePriority Ref="24" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="25" ControlType="XRLabel" Name="label2" Multiline="true" Text="NOME" TextAlignment="MiddleLeft" SizeF="400,23" LocationFloat="100,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+          <StylePriority Ref="26" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="27" ControlType="XRLabel" Name="label1" Multiline="true" Text="ID" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="0,0" Font="Arial, 9.75pt, style=Bold" BackColor="DarkGray" Padding="2,2,0,0,96" Borders="All">
+          <StylePriority Ref="28" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+      </Controls>
+    </Item3>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.1" Ref="2" Content="System.Int16" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.1" Ref="6" Content="System.DateTime" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

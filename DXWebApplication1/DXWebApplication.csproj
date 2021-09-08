@@ -33,6 +33,7 @@
     <None Remove="Data\reportsData.db" />
     <None Remove="XtraReport1.vsrepx" />
     <None Remove="XtraReport2.vsrepx" />
+    <None Remove="XtraReport3.vsrepx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\nwind.db">
@@ -56,6 +57,7 @@
   <ItemGroup>
     <EmbeddedResource Include="XtraReport1.vsrepx" />
     <EmbeddedResource Include="XtraReport2.vsrepx" />
+    <EmbeddedResource Include="XtraReport3.vsrepx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="PredefinedReports\TestReport.cs">
@@ -75,6 +77,12 @@
     </Compile>
     <Compile Update="XtraReport2.Designer.cs">
       <DependentUpon>XtraReport2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport3.cs">
+      <DependentUpon>XtraReport3.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport3.Designer.cs">
+      <DependentUpon>XtraReport3.vsrepx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
