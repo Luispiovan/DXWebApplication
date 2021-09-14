@@ -3,9 +3,9 @@ using DevExpress.XtraReports.UI;
 
 namespace DXWebApplication1
 {
-    public partial class XtraReport1
+    public partial class XtraReport2
     {
-        public XtraReport1()
+        public XtraReport2()
         {
             InitializeComponent();
         }
