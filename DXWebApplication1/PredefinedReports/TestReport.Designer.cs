@@ -8,11 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DXWebApplication1.PredefinedReports {
-    
-    public partial class TestReport : DevExpress.XtraReports.UI.XtraReport {
-        private void InitializeComponent() {
-            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "DXWebApplication1.PredefinedReports.TestReport.vsrepx");
+namespace DXWebApplication1.PredefinedReports
+{
+
+    public partial class TestReport : DevExpress.XtraReports.UI.XtraReport
+    {
+        private void InitializeComponent()
+        {
+            DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "DXWebApplication.PredefinedReports.TestReport.vsrepx");
 
             // Controls
             this.TopMargin = reportInitializer.GetControl<DevExpress.XtraReports.UI.TopMarginBand>("TopMargin");
